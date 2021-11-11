@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Title</title>
+<style>
+    .button{
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    }
+</style>
+</head>
+<body>
+    <h1>Change WhiteList</h1>
+<form action="/change">
+     <input type="radio" id="del" name="action" value="delete_command">
+        <label for="html">delete command</label><br>
+    <input type="radio" id="add" name="action" value="add_command">
+        <label for="css">add command</label><br>
+    <input type="radio" id="add_param" name="action" value="add_params">
+        <label for="javascript">add params</label><br>
+    <input type="radio" id="del_param" name="action" value="del_params">
+        <label for="javascript">delete params</label><br>
+    <br>
+    <label for="cmd">Command name:</label><br>
+        <input type="text" id="cmd" name="cmd">
+    <br>
+    <label for="param">parameters: (separated by ,)</label><br>
+        <input type="text" id="param" name="fname">
+    <br>
+    <br>
+  <input class="button" style="background-color: Tomato;" type="submit" value="run">
+</form>
+    <br>
+    <br>
+    <br>
+<div id="box" class="box">
+    <button id="button" class="button" style="background-color: #008CBA;" onclick="location.href='http://192.168.1.188:80/';"> return to main page </button>
+</div>
+</body>
+</html>

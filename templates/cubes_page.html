@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+<style>
+.box-a {
+  height: 150px;
+  width: 30%;
+  padding: 5px;
+  text-align: center;
+  float: left;
+  position: relative;
+  background-color: #FC3838;
+}
+.box-b {
+  height: 150px;
+  width: 30%;
+  padding: 5px;
+  text-align: center;
+  float: left;
+  position: relative;
+  background-color: #47FC38;
+}
+.box-c {
+  height: 150px;
+  width: 30%;
+  padding: 5px;
+  text-align: center;
+  float: left;
+  position: relative;
+  background-color: #FC9738;
+}
+.box-d {
+  height: 150px;
+  width: 30%;
+  padding: 5px;
+  text-align: center;
+  float: left;
+  position: relative;
+  background-color: #6495ED;
+}
+</style>
+    <script src = "{{url_for('static', filename='myscript.js')}}"> </script>
+</head>
+<body>
+<div id="wrapperdiv" class="wrapper">
+    <div id="box1" class="box-a">
+        <h2>error</h2>
+        <button id="button-a" onclick="location.href='http://192.168.1.188:80/error';"
+                style="background-color: white"> check error logs </button>
+        <p id="result_a"></p>
+    </div>
+
+    <div id="box2" class="box-b">
+        <h2>warning</h2>
+        <button id="button-b" onclick="location.href='http://192.168.1.188:80/warning';"
+                style="background-color: white"> check warning logs </button>
+        <p id="result_b"></p>
+    </div>
+
+    <div id="box3" class="box-c">
+        <h2>info</h2>
+        <button id="button-c" onclick="location.href='http://192.168.1.188:80/info';"
+                style="background-color: white"> check info logs </button>
+        <p id="result_c"></p>
+    </div>
+    <div id="box4" class="box-d">
+        <h2>Change WhiteList</h2>
+        <button id="button-d" onclick="location.href='http://192.168.1.188:80/change';"
+                style="background-color: white"> Change WhiteList </button>
+        <p id="result_d"></p>
+    </div>
+</div>
+<!--
+<center><h2>Square CSS</h2></center>
+<center><div class="square1"><h3>error logs</h3><p>txt=file.txt</p></div></center>
+<center><div class="square2"><h3>info logs</h3><p>txt=file.txt</p></div></center>
+<center><div class="square3"><h3>warning logs</h3><p>txt=file.txt</p></div></center>
+-->
+</body>
+</html>

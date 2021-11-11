@@ -1,0 +1,44 @@
+{
+      "windows": {
+            "taskkill": [],
+            "dir": [],
+            "echo": [
+                  "q"
+            ],
+            "color": [
+                  "1",
+                  "2",
+                  "3"
+            ],
+            "date": [],
+            "time": [],
+            "ipconfig": [
+                  "/all"
+            ],
+            "ping": [
+                  "8.8.8.8",
+                  "20",
+                  "-w",
+                  "-l"
+            ]
+      },
+      "linux": {
+            "ls": [],
+            "echo": [],
+            "top": [],
+            "free": [],
+            "kill": [],
+            "ping": [
+                  "8.8.8.8",
+                  "20",
+                  "-w",
+                  "-l"
+            ],
+            "grep": []
+
+      },
+      "files": [
+            "commands.txt",
+            "wrong.txt"
+      ]
+}

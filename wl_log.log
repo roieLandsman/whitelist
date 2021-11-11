@@ -1,0 +1,17 @@
+2021-10-19 20:46:21,794 - WARNING - ls command not in whitelist
+2021-10-19 20:46:25,887 - INFO - dir Command run successfully 
+2021-10-19 20:47:23,986 - INFO - ipconfig Command run successfully 
+2021-10-19 20:48:41,012 - INFO - color 3 Command run successfully 
+2021-10-19 20:48:44,762 - WARNING - color command parameter not in whitelist
+2021-10-19 20:49:24,544 - INFO - ipconfig /all Command run successfully 
+2021-11-02 20:52:33,694 - WARNING - qw command not in whitelist
+2021-11-02 20:52:37,520 - WARNING - color command parameter not in whitelist
+2021-11-02 20:52:40,462 - WARNING - color command parameter not in whitelist
+2021-11-02 20:52:43,526 - WARNING - color command parameter not in whitelist
+2021-11-02 20:52:47,220 - INFO - color 1 Command run successfully 
+2021-11-05 16:17:39,843 - ERROR - !!! An attempt to kill self process !!!
+2021-11-05 16:17:45,199 - INFO - color 3 Command run successfully 
+2021-11-05 16:18:00,425 - WARNING - ping command parameter not in whitelist
+2021-11-05 16:18:10,377 - WARNING - ping command parameter not in whitelist
+2021-11-05 16:18:16,799 - INFO - ping 8.8.8.8 Command run successfully 
+2021-11-05 16:20:12,850 - WARNING - color command 5 parameter not in whitelist

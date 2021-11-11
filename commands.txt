@@ -1,0 +1,6 @@
+echo banana
+color 5
+echo bananarama
+color 7
+dir
+color 2

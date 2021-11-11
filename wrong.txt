@@ -1,0 +1,2 @@
+dir
+taskkill 22524
